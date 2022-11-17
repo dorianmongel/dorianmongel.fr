@@ -1,0 +1,12 @@
+{
+    "name": "dorianmongel/dorianmongel.fr",
+    "description": "Portfolio",
+    "autoload": {
+        "psr-4": {
+            "Dorianmongel\\DorianmongelFr\\": "src/"
+        }
+    },
+    "require": {
+        "league/commonmark": "^2.3"
+    }
+}
