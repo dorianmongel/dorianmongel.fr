@@ -40,7 +40,6 @@ ul li{
 article{ 
      padding-bottom: 30px; 
      width: 100%; 
-     max-width: 500px; 
 }
 article div.content{
     display: block;
@@ -54,6 +53,15 @@ article div.content{
 
 @media only screen and (min-width: 600px) {
     article{ 
-        width: calc(100% / 3); 
+        width: calc(100% / 2 - 30px); 
     }
 }
+
+@media only screen and (min-width: 800px) {
+    article{ 
+        width: calc(100% / 3 - 30px); 
+        max-width: 500px;
+    }
+}
+
+

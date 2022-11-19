@@ -12,7 +12,7 @@
     $content[]          = '<div class="grid">';
     $scandir            = scan_dir_reverse("./posts");
     foreach($scandir as $fichier){
-        if( $fichier != '.' && $fichier != '..'){
+        if( $fichier != '.' && $fichier != '..' && $fichier != '.gitignore'){
             $post       = file_get_contents('./posts/' . $fichier);
             $content[]  = '<article><div class="content">';
             $content[]  = '<h2>' . date('d/m/Y', strtotime( substr($fichier,0, -3) )) . '</h2>';
