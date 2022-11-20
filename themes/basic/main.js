@@ -1,0 +1,1 @@
+window.onload=e=>{new Masonry(".grid",{itemSelector:"article",gutter:30})};

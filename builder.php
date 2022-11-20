@@ -15,7 +15,7 @@
         if( $fichier != '.' && $fichier != '..' && $fichier != '.gitignore'){
             $post       = file_get_contents('./posts/' . $fichier);
             $content[]  = '<article><div class="content">';
-            $content[]  = '<h2>' . date('d/m/Y', strtotime( substr($fichier,0, -3) )) . '</h2>';
+            $content[]  = '<span class="date">' . date('d/m/Y', strtotime( substr($fichier,0, -3) )) . '</span>';
             $content[]  = $converter->convert($post);
             $content[]  = '</div></article>';
         }
