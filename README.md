@@ -14,4 +14,4 @@ This project is visible on [my website](https://www.dorianmongel.fr/)
 - [ ] Build in bash, not php
 - [ ] Pagination
 - [ ] Single view for posts
-- [ ] Search Form
+- [x] Search Form
