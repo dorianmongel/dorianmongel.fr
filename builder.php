@@ -1,5 +1,8 @@
 <?php 
     require 'vendor/autoload.php';
+    require 'config.php';
+
+
     use League\CommonMark\CommonMarkConverter;
     $converter = new CommonMarkConverter([
         'html_input' => 'strip',
@@ -7,7 +10,7 @@
     ]);
 
     $content            = array();
-    $content[]          = file_get_contents('./template/header.html');
+    $content[]          = file_get_contents('themes/'.$config['theme'].'/template/header.html');
 
     $content[]          = '<div class="grid">';
     $scandir            = scan_dir_reverse("./posts");
@@ -22,7 +25,7 @@
     
     }
     $content[]          = '</div>';
-    $content[]          = file_get_contents('./template/footer.html');
+    $content[]          = file_get_contents('themes/'.$config['theme'].'/template/footer.html');
 
     $html               = implode('', $content);
     unlink( 'index.html' );

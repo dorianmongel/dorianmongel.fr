@@ -77,7 +77,7 @@ module.exports = (env, argv) => [
         test: /\.(png|jpg|jpeg|gif|svg)$/,
         generator: { 
             filename(resourcePath, resourceQuery) {
-              return '../img/[name][ext]';
+              return 'img/[name][ext]';
             },
         },
         type: 'asset/resource',

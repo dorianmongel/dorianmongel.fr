@@ -8,7 +8,7 @@ This project is visible on [my website](https://www.dorianmongel.fr/)
 
 ## TODO
 - [ ] Creation of a Github repository for the project
-- [ ] Reorganization of the core
+- [x] Reorganization of the core
 - [x] Implementation of Webpack
 - [ ] New CSS style
 - [ ] Build in bash, not php
