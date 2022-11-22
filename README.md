@@ -15,3 +15,4 @@ This project is visible on [my website](https://www.dorianmongel.fr/)
 - [ ] Pagination
 - [ ] Single view for posts
 - [x] Search Form
+- [ ] Notification new post

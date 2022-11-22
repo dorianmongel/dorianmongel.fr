@@ -1,0 +1,176 @@
+
+html{ 
+    background: #383a59;
+    body{ 
+        margin: 0;
+        padding: 0px; 
+        font-family: "Lora", serif; 
+        *{ 
+            font-weight: normal; 
+            box-sizing: border-box;
+        }
+        strong{
+            font-weight: bold;
+        }
+
+        h1{ 
+            display: inline; 
+            font-size: 25px;
+        }
+
+        header{
+            padding: 30px;
+            text-align: right;
+            background-color: #282A36;
+            display: block;
+            margin-bottom: 30px;
+            text-align: center;
+            @media only screen and (min-width: 600px) {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            strong{
+                color: #FFFF;
+                font-size: 30px;
+                line-height: 50px;;
+                padding-left: 50px;
+                background-image: url(../img/logo-dracula.png);
+                background-size: 50px 50px;
+                background-position: left center;
+                background-repeat: no-repeat;
+                padding-left: 60px;
+                height: 50px;;
+            }
+            form{
+                margin-top: 30px;
+                @media only screen and (min-width: 600px) {
+                    margin-top: 0;
+                }
+                input{
+                    width: 100%;
+                    max-width: 300px;
+                    height: 50px;
+                    border-radius: 5px;
+                    border: none;
+                    padding: 0 10px;
+                    padding-right: 40px;
+                    font-size: 20px;
+                    font-family: "Lora", serif; 
+                    font-style: italic;
+                    color: #F8F8F2;
+                    outline: none;
+                    background-image: url(../img/iconmonstr-search-thin.svg);
+                    background-repeat: no-repeat;
+                    background-size: 20px;
+                    background-position: center right 10px;
+                    background-color: #44475A;
+                }
+            }
+        }
+
+
+        #hello{ 
+            font-size: 25px;
+            color: #F8F8F2;
+            padding: 30px;
+            margin-bottom: 30px;
+            a{
+                color: #50FA7B;
+                font-weight: bold;
+                &:hover{
+                    color: #FFB86C;
+                }
+            }
+        }
+
+        
+        main{
+            padding: 30px;
+            padding-top: 0;
+            div.grid{
+                article{ 
+                    padding-bottom: 30px; 
+                    width: 100%;
+                    @media only screen and (min-width: 730px) {
+                        width: calc(100% / 2 - 30px); 
+                    }
+                    @media only screen and (min-width: 1150px) {
+                        width: calc(100% / 3 - 30px); 
+                        max-width: 500px;
+                    }
+                    div.content{
+                        display: block;
+                        border-radius: 5px;
+                        overflow: hidden; 
+                        background-color: #6272A4;
+                        padding: 20px 30px;
+                        padding-top: 60px;
+                        font-size: 20px;
+                        color: #FFF;
+                        a{
+                            color: #8BE9FD;
+                            &:hover{
+                                color: #FF79C6;
+                            }
+                        }
+                        img{
+                            display: block;
+                            width: 100%; 
+                            margin: 0 auto;
+                        }
+                        span.date{
+                            display: inline-block;
+                            font-size: 15px;
+                            font-style: italic; 
+                            padding: 8px;;
+                            text-align: right; 
+                            border-radius: 5px;
+                            background-color: #fff;
+                            color: #6272A4;
+                            position: absolute;
+                            top: 30px;
+                            right: 30px;
+                        }
+                        ul{
+                            padding: 0; 
+                            margin: 0;
+                            font-size: 15px; 
+                            text-align: right;
+                            position: relative;
+                            margin-top: 20px;
+                            padding-top: 23px;
+                            &:after{
+                                position: absolute;
+                                top: 0;
+                                left: calc(50% - 20px);
+                                content: '';
+                                display: block;
+                                width: 40px;
+                                height: 3px;
+                                background-color: #282A36;
+                            }
+                            li{ 
+                                display: inline-block; 
+                                background: #FFF;
+                                color: #6272A4;
+                                margin: 15px 0 0 15px; 
+                                padding: 10px; 
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                    
+            }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
