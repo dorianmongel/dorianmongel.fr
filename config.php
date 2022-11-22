@@ -2,5 +2,5 @@
 
 
 $config = array(
-    "theme"             => "basic"
+    "theme"             => "dracula"
 );
