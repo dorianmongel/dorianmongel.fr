@@ -1,6 +1,15 @@
+$color1: #383a59;
+$color2: #282A36;
+$color3: #F8F8F2;
+$color4: #44475A;
+$color5: #50FA7B;
+$color6: #FFB86C;
+$color8: #6272A4;
+$color9: #8BE9FD;
+$color10: #FF79C6;
 
 html{ 
-    background: #383a59;
+    background: $color1;
     body{ 
         margin: 0;
         padding: 0px; 
@@ -21,7 +30,7 @@ html{
         header{
             padding: 30px;
             text-align: right;
-            background-color: #282A36;
+            background-color: $color2;
             display: block;
             margin-bottom: 30px;
             text-align: center;
@@ -58,13 +67,13 @@ html{
                     font-size: 20px;
                     font-family: "Lora", serif; 
                     font-style: italic;
-                    color: #F8F8F2;
+                    color: $color3;
                     outline: none;
                     background-image: url(../img/iconmonstr-search-thin.svg);
                     background-repeat: no-repeat;
                     background-size: 20px;
                     background-position: center right 10px;
-                    background-color: #44475A;
+                    background-color: $color4;
                 }
             }
         }
@@ -72,14 +81,14 @@ html{
 
         #hello{ 
             font-size: 25px;
-            color: #F8F8F2;
+            color: $color3;
             padding: 30px;
             margin-bottom: 30px;
             a{
-                color: #50FA7B;
+                color: $color10;
                 font-weight: bold;
                 &:hover{
-                    color: #FFB86C;
+                    color: $color9;
                 }
             }
         }
@@ -103,15 +112,15 @@ html{
                         display: block;
                         border-radius: 5px;
                         overflow: hidden; 
-                        background-color: #6272A4;
+                        background-color: $color8;
                         padding: 20px 30px;
                         padding-top: 60px;
                         font-size: 20px;
                         color: #FFF;
                         a{
-                            color: #8BE9FD;
+                            color: $color5;
                             &:hover{
-                                color: #FF79C6;
+                                color: $color6;
                             }
                         }
                         img{
@@ -127,7 +136,7 @@ html{
                             text-align: right; 
                             border-radius: 5px;
                             background-color: #fff;
-                            color: #6272A4;
+                            color: $color8;
                             position: absolute;
                             top: 30px;
                             right: 30px;
@@ -148,12 +157,12 @@ html{
                                 display: block;
                                 width: 40px;
                                 height: 3px;
-                                background-color: #282A36;
+                                background-color: $color2;
                             }
                             li{ 
                                 display: inline-block; 
                                 background: #FFF;
-                                color: #6272A4;
+                                color: $color8;
                                 margin: 15px 0 0 15px; 
                                 padding: 10px; 
                                 border-radius: 5px;
