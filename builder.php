@@ -9,6 +9,9 @@
         'allow_unsafe_links' => false,
     ]);
 
+
+    // HTML 
+
     $content            = array();
     $content[]          = file_get_contents('themes/'.$config['theme'].'/template/header.html');
 
@@ -35,6 +38,45 @@
     fclose($fileopen);
 
 
+
+    // RSS
+    $content            = array();
+    $content[]          = '<?xml version="1.0" encoding="UTF-8" ?>';
+    $content[]          = '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">';
+    $content[]          = '<channel>';
+    $content[]          = '<atom:link href="' . $config['url'] . '/rss.xml" rel="self" type="application/rss+xml" />';
+    $content[]          = '<title>' . $config['title'] . '</title>';
+    $content[]          = '<link>' . $config['url'] . '</link>';
+    $content[]          = '<description>' . $config['description'] . '</description>';
+    $scandir            = scan_dir_reverse("./posts");
+    $postNb             = 0;
+    foreach($scandir as $fichier){
+        if( $fichier != '.' && $fichier != '..' && $fichier != '.gitignore'){
+            $postNb++;
+            $post       = file_get_contents('./posts/' . $fichier);
+            $content[]  = '<item>';
+            $content[]  = '<pubDate>' . date('D, d M Y', strtotime( substr($fichier,0, -3) )) . ' 00:00:00 GMT</pubDate>';
+            $content[]  = '<guid isPermaLink="false">Item' . $postNb .'</guid>';
+
+            $content[]  = '<description><![CDATA[' .  $converter->convert($post)  . ']]></description>';
+            $content[]  = '</item>';
+        }
+    
+    }
+    $content[]          = '</channel>';
+    $content[]          = '</rss>';
+
+    $flux               = implode('', $content);
+    unlink( 'rss.xml' );
+    $file               = 'rss.xml';
+    $fileopen           = (fopen("$file",'a'));
+    fwrite($fileopen, $flux );
+    fclose($fileopen);
+
+       
+
+
+
     function scan_dir_reverse($dir) {
         $ignored = array('.', '..');
         $files = array();    
@@ -46,3 +88,4 @@
         $files = array_keys($files);
         return ($files) ? $files : false;
     }
+

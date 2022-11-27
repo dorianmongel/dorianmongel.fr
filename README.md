@@ -16,4 +16,4 @@ This project is visible on [my website](https://www.dorianmongel.fr/)
 - [ ] Single view for posts
 - [x] Search Form
 - [ ] Notification new post
-- [ ] Mise en place RSS
+- [x] Mise en place RSS
