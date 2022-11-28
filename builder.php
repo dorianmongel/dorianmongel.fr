@@ -53,12 +53,37 @@
     foreach($scandir as $fichier){
         if( $fichier != '.' && $fichier != '..' && $fichier != '.gitignore'){
             $postNb++;
+
+            // Récupération du loien du post
             $post       = file_get_contents('./posts/' . $fichier);
+            preg_match_all('#\(https://(.*?)\)#', $post, $match);
+            if( key_exists(1, $match ) ){
+                $link = $match[1];
+            }
+            if( count( $link ) > 0 ){
+                $link = 'https://' . implode( ' https://', $link );
+            }else{
+                $link = null;
+            }
+           
+            //Récupération des #
+            $postConverted = $converter->convert($post);
+            preg_match_all('/<li[^.]*<\/li>/', $postConverted, $hashs);
+            $hashs = explode('<li>', $hashs[0][0]);
+            $hashList = '';
+            foreach ($hashs as $hash) {
+                $hash = str_replace( array('</li>', "\n"), array('', ''), $hash);
+                $hashList .= $hash . ' ';
+            }
+
+            $onlyText      = explode( '<ul>', $converter->convert($post));
+            $onlyText      = $onlyText[0];
+
             $content[]  = '<item>';
             $content[]  = '<pubDate>' . date('D, d M Y', strtotime( substr($fichier,0, -3) )) . ' 00:00:00 GMT</pubDate>';
             $content[]  = '<guid isPermaLink="false">Item' . $postNb .'</guid>';
 
-            $content[]  = '<description><![CDATA[' .  $converter->convert($post)  . ']]></description>';
+            $content[]  = '<description>'.  strip_tags( $onlyText )  . ' ' . $link . ' ' . $hashList . '</description>';
             $content[]  = '</item>';
         }
     

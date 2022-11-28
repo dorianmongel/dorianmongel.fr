@@ -1,68 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" ?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><atom:link href="https://www.dorianmongel.fr/rss.xml" rel="self" type="application/rss+xml" /><title>Welcome in my home</title><link>https://www.dorianmongel.fr</link><description>Ce site me sert de carte de visite, et me force à faire une veille. Vous etrouverez donc ici quelques ressources utiles.</description><item><pubDate>Sun, 27 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item1</guid><description><![CDATA[<p>Besoin de piloter AWS depuis un script PHP ? <a href="https://packagist.org/packages/aws/aws-sdk-php">Ce dépot</a> permet de déployer simplement une instance en PHP.</p>
-<ul>
-<li>#AWS</li>
-<li>PHP</li>
-<li>#Composer</li>
-<li>#SDK</li>
-</ul>
-]]></description></item><item><pubDate>Sat, 26 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item2</guid><description><![CDATA[<p>La VOD d'un meetup autour de AWS Spot, organisé la semaine dernière, est dispo sur le site de <a href="https://www.francedevops.fr/webinars/aws-spot-laissez-tomber-les-serveurs">francedevops</a>. Talk simple, sans prétention et plein d'imagination dans les solutions apportées à un besoin d'infra particulier.</p>
-<ul>
-<li>#Francedevops</li>
-<li>#DevOps</li>
-<li>#AWS</li>
-<li>#Spot</li>
-<li>#AdminSys</li>
-</ul>
-]]></description></item><item><pubDate>Fri, 25 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item3</guid><description><![CDATA[<p>Petit tips markdown : un <a href="https://gist.github.com/rxaviers/7360908">dépot git</a> recensant tous les emoji et leur application en markdown</p>
-<ul>
-<li>#Markdown</li>
-<li>#Github</li>
-<li>#Emoji</li>
-</ul>
-]]></description></item><item><pubDate>Thu, 24 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item4</guid><description><![CDATA[<p>Envoyer des SMS depuis debian, grâce à un vieux téléphone, c'est possible. <a href="https://randrianiriana.wordpress.com/2011/07/26/envoyer-des-sms-sur-debian-gnulinux/">Rendez-vous sur ce tuto</a> pour la mise en place.</p>
-<ul>
-<li>#SMS</li>
-<li>#Debian</li>
-<li>#Gammu</li>
-</ul>
-]]></description></item><item><pubDate>Wed, 23 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item5</guid><description><![CDATA[<p>Extraction d'un jeu de couleurs, en PHP, à partir d'une image. Ksubileau nous livre son <a href="https://github.com/ksubileau/color-thief-php">projet Github</a>, installable via composer.</p>
-<ul>
-<li>Image</li>
-<li>PHP</li>
-<li>Github</li>
-<li>Extraction</li>
-</ul>
-]]></description></item><item><pubDate>Tue, 22 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item6</guid><description><![CDATA[<p>Pour fêter le thème dracula de  <a href="https://github.com/dorianmongel/dorianmongel.fr">ce projet</a>, aujourd'hui petit lien vers <a href="https://draculatheme.com/">un site</a> proposant le fameux thème pour plein de logiciels.</p>
-<ul>
-<li>#Dracula</li>
-<li>#Thème</li>
-</ul>
-]]></description></item><item><pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item7</guid><description><![CDATA[<p>De la détection de logo sur des images ? Basée sur <a href="https://www.tensorflow.org/">Tensor Flow</a>, tout est expliqué dans <a href="https://towardsdatascience.com/logo-detection-in-images-using-ssd-bcd3732e1776">cet article</a>.</p>
-<ul>
-<li>#SSD</li>
-<li>#Python</li>
-<li>#Logo</li>
-<li>#Détection</li>
-</ul>
-]]></description></item><item><pubDate>Sun, 20 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item8</guid><description><![CDATA[<p><a href="https://github.com/scraly/developers-conferences-agenda">Dépot Github</a> assez impressionnant listant toutes les conférences de dev à travers le monde.</p>
-<ul>
-<li>#Github</li>
-<li>#Conférences</li>
-</ul>
-]]></description></item><item><pubDate>Sat, 19 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item9</guid><description><![CDATA[<p>L'image de Odoo (v14.0 - <strong>by Bitnami</strong>) est dispo sur AWS EC2 et tourne sur une instance micro (dans l'offre gratuite). De quoi tester l'outil dont on voit la pub partout en ce moment.</p>
-<ul>
-<li>#Odoo</li>
-<li>#AWS</li>
-<li>#EC2</li>
-</ul>
-]]></description></item><item><pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item10</guid><description><![CDATA[<p>Cette page est propulsée par <a href="https://www.netlify.com/">Netlify</a> &amp; <a href="https://github.com/dorianmongel">Github</a>. Au passage, ce <a href="https://github.com/dorianmongel/dorianmongel.fr">projet</a> est en libre accès. Pour le moment il s'agit plus d'un POC qu'autre chose.</p>
-<ul>
-<li>#Netlify</li>
-<li>#Github</li>
-</ul>
-]]></description></item><item><pubDate>Thu, 17 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item11</guid><description><![CDATA[<p>Mise en place d'un système qui me permettra de rédiger quelques notes, en markdown. Propulsé en ligne via git.</p>
-<ul>
-<li>#FirstCommit</li>
-<li>#NewTryToWrite</li>
-</ul>
-]]></description></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8" ?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><atom:link href="https://www.dorianmongel.fr/rss.xml" rel="self" type="application/rss+xml" /><title>Welcome in my home</title><link>https://www.dorianmongel.fr</link><description>Ce site me sert de carte de visite, et me force à faire une veille. Vous etrouverez donc ici quelques ressources utiles.</description><item><pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate><guid isPermaLink="false">Item1</guid><description>Super introduction au DevOps avec ce dépot dont l'auteur n'a plus grand chose a prouver.
+ https://github.com/stephrobert/awesome-french-devops  #Github #DevOps StephRobert </description></item><item><pubDate>Sun, 27 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item2</guid><description>Besoin de piloter AWS depuis un script PHP ? Ce dépot permet de déployer simplement une instance en PHP.
+ https://packagist.org/packages/aws/aws-sdk-php  #AWS PHP #Composer #SDK </description></item><item><pubDate>Sat, 26 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item3</guid><description>La VOD d'un meetup autour de AWS Spot, organisé la semaine dernière, est dispo sur le site de francedevops. Talk simple, sans prétention et plein d'imagination dans les solutions apportées à un besoin d'infra particulier.
+ https://www.francedevops.fr/webinars/aws-spot-laissez-tomber-les-serveurs  #Francedevops #DevOps #AWS #Spot #AdminSys </description></item><item><pubDate>Fri, 25 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item4</guid><description>Petit tips markdown : un dépot git recensant tous les emoji et leur application en markdown
+ https://gist.github.com/rxaviers/7360908  #Markdown #Github #Emoji </description></item><item><pubDate>Thu, 24 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item5</guid><description>Envoyer des SMS depuis debian, grâce à un vieux téléphone, c'est possible. Rendez-vous sur ce tuto pour la mise en place.
+ https://randrianiriana.wordpress.com/2011/07/26/envoyer-des-sms-sur-debian-gnulinux/  #SMS #Debian #Gammu </description></item><item><pubDate>Wed, 23 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item6</guid><description>Extraction d'un jeu de couleurs, en PHP, à partir d'une image. Ksubileau nous livre son projet Github, installable via composer.
+ https://github.com/ksubileau/color-thief-php  #Image #PHP #Github #Extraction </description></item><item><pubDate>Tue, 22 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item7</guid><description>Pour fêter le thème dracula de  ce projet, aujourd'hui petit lien vers un site proposant le fameux thème pour plein de logiciels.
+ https://github.com/dorianmongel/dorianmongel.fr https://draculatheme.com/  #Dracula #Thème </description></item><item><pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item8</guid><description>De la détection de logo sur des images ? Basée sur Tensor Flow, tout est expliqué dans cet article.
+ https://www.tensorflow.org/ https://towardsdatascience.com/logo-detection-in-images-using-ssd-bcd3732e1776  #SSD #Python #Logo #Détection </description></item><item><pubDate>Sun, 20 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item9</guid><description>Dépot Github assez impressionnant listant toutes les conférences de dev à travers le monde.
+ https://github.com/scraly/developers-conferences-agenda  #Github #Conférences </description></item><item><pubDate>Sat, 19 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item10</guid><description>L'image de Odoo (v14.0 - by Bitnami) est dispo sur AWS EC2 et tourne sur une instance micro (dans l'offre gratuite). De quoi tester l'outil dont on voit la pub partout en ce moment.
+   #Odoo #AWS #EC2 </description></item><item><pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item11</guid><description>Cette page est propulsée par Netlify &amp; Github. Au passage, ce projet est en libre accès. Pour le moment il s'agit plus d'un POC qu'autre chose.
+ https://www.netlify.com/ https://github.com/dorianmongel https://github.com/dorianmongel/dorianmongel.fr  #Netlify #Github </description></item><item><pubDate>Thu, 17 Nov 2022 00:00:00 GMT</pubDate><guid isPermaLink="false">Item12</guid><description>Mise en place d'un système qui me permettra de rédiger quelques notes, en markdown. Propulsé en ligne via git.
+   #FirstCommit #NewTryToWrite </description></item></channel></rss>
