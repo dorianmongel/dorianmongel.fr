@@ -81,7 +81,7 @@
 
             $content[]  = '<item>';
             $content[]  = '<pubDate>' . date('D, d M Y', strtotime( substr($fichier,0, -3) )) . ' 00:00:00 GMT</pubDate>';
-            $content[]  = '<guid isPermaLink="false">Item' . $postNb .'</guid>';
+            $content[]  = '<guid isPermaLink="false">Item' . str_replace('-', '', substr($fichier,0, -3)).'</guid>';
 
             $content[]  = '<description>'.  strip_tags( $onlyText )  . ' ' . $link . ' ' . $hashList . '</description>';
             $content[]  = '</item>';
