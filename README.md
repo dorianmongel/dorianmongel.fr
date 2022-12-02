@@ -17,3 +17,4 @@ This project is visible on [my website](https://www.dorianmongel.fr/)
 - [x] Search Form
 - [ ] Notification new post
 - [x] Mise en place RSS
+- [ ] Favicon
